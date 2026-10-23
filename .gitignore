@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# local secrets and runtime config
+.env
+.env.*
+*.local
+config.json
+secrets/
+.DS_Store
+
+# editor / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.log
+
+# downloaded installers and archives
+*.zip
+*.dmg
+*.pkg
+GitHubDesktop-*
+github-desktop-*
